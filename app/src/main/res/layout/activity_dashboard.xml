@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.androidedu.kodluyoruz.kotlinactivityfragmentlifecycle.DashboardActivity">
+
+
+    <fragment
+        android:id="@+id/activity_dashboard_fragA"
+        android:name="com.androidedu.kodluyoruz.kotlinactivityfragmentlifecycle.DashboardFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/activity_dashboard_fragB"
+        android:name="com.androidedu.kodluyoruz.kotlinactivityfragmentlifecycle.LoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/activity_dashboard_frmC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
